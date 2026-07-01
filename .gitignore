@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+preview-*.png
+w-*.png
+r-*.png
+node_modules/
