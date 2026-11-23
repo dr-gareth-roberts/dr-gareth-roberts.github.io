@@ -1,0 +1,21 @@
+{
+  "name": "gareth-roberts-cv",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "assets:blender": "/Applications/Blender.app/Contents/MacOS/Blender --background --python blender/build_realistic_specimens.py"
+  },
+  "dependencies": {
+    "lenis": "^1.3.1",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.175.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

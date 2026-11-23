@@ -1,6 +1,7 @@
+node_modules/
+dist/
 .DS_Store
 *.log
-preview-*.png
-w-*.png
-r-*.png
-node_modules/
+*.pdf
+blender/__pycache__/
+blender/neuroanatomy_cache.npz
